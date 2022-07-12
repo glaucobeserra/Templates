@@ -185,8 +185,8 @@ let contentView = ContentView().environment(\.managedObjectContext, context)
 	</array>
 	<key>Image</key>
 	<dict>
-		<key>SystemSymbolName</key>
-		<string>location.viewfinder</string>
+		<key>Path</key>
+		<string>TemplateIcon.png</string>
 	</dict>
 </dict>
 </plist>
