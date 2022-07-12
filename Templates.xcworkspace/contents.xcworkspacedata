@@ -20,6 +20,9 @@
       <FileRef
          location = "group:TemplateInfo.plist">
       </FileRef>
+      <FileRef
+         location = "group:___PACKAGENAME___MainCoordinator.swift">
+      </FileRef>
    </Group>
    <Group
       location = "group:Coordinated UIScene Lifecycle.xctemplate"

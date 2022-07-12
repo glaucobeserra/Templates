@@ -255,7 +255,7 @@ guard let scene = (scene as? UIWindowScene) else { return }
 guard let coordinator = coordinator else { return }
 
 let navigationController = UINavigationController()
-coordinator = MainCoordinator(navigationController: navigationController)
+coordinator = ___PACKAGENAME___MainCoordinator(navigationController: navigationController)
 coordinator.start()
 
 guard let window = UIWindow(windowScene: scene)
