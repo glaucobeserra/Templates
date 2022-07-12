@@ -4,17 +4,27 @@
    <Group
       location = "group:Coordinated App.xctemplate"
       name = "Coordinated App.xctemplate">
+      <Group
+         location = "group:Helpers"
+         name = "Helpers">
+         <FileRef
+            location = "group:Coordinator.swift">
+         </FileRef>
+      </Group>
       <FileRef
          location = "group:TemplateIcon@2x.png">
-      </FileRef>
-      <FileRef
-         location = "group:Main.storyboard">
       </FileRef>
       <FileRef
          location = "group:TemplateIcon.png">
       </FileRef>
       <FileRef
          location = "group:TemplateInfo.plist">
+      </FileRef>
+      <FileRef
+         location = "group:___PACKAGENAME___MainCoordinator.swift">
+      </FileRef>
+      <FileRef
+         location = "group:___PACKAGENAME___MainViewController.swift">
       </FileRef>
    </Group>
    <Group

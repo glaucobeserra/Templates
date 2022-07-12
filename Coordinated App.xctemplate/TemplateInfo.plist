@@ -30,36 +30,29 @@
 				<dict>
 					<key>Nodes</key>
 					<array>
-						<string>ViewController.h:comments</string>
-						<string>ViewController.h:imports:importCocoa</string>
-						<string>ViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
-						<string>ViewController.m:comments</string>
-						<string>ViewController.m:imports:importHeader:ViewController.h</string>
-						<string>ViewController.m:extension</string>
-						<string>ViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
-						<string>ViewController.m:implementation:methods:viewDidLoad:super</string>
-						<string>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</string>
-						<string>Base.lproj/Main.storyboard</string>
+						<string>___PACKAGENAME___MainViewController.h:comments</string>
+						<string>___PACKAGENAME___MainViewController.h:imports:importCocoa</string>
+						<string>___PACKAGENAME___MainViewController.h:interface(___FILEBASENAME___ : UIViewController)</string>
+						<string>___PACKAGENAME___MainViewController.m:comments</string>
+						<string>___PACKAGENAME___MainViewController.m:imports:importHeader:ViewController.h</string>
+						<string>___PACKAGENAME___MainViewController.m:extension</string>
+						<string>___PACKAGENAME___MainViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
+						<string>___PACKAGENAME___MainViewController.m:implementation:methods:viewDidLoad:super</string>
+						<string>Helpers/Coordinator.swift</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>Base.lproj/Main.storyboard</key>
+						<key>Helpers/Coordinator.swift</key>
 						<dict>
 							<key>Path</key>
-							<string>Main.storyboard</string>
+							<string>Helpers/Coordinator.swift</string>
 							<key>SortOrder</key>
 							<integer>98</integer>
 						</dict>
 					</dict>
 					<key>Targets</key>
 					<array>
-						<dict>
-							<key>SharedSettings</key>
-							<dict>
-								<key>INFOPLIST_KEY_UIMainStoryboardFile</key>
-								<string>Main</string>
-							</dict>
-						</dict>
+						<dict/>
 					</array>
 				</dict>
 				<key>Swift</key>
@@ -72,34 +65,28 @@
 						</dict>
 						<key>Nodes</key>
 						<array>
-							<string>ViewController.swift:comments</string>
-							<string>ViewController.swift:imports:importCocoa</string>
-							<string>ViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
-							<string>ViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-							<string>ViewController.swift:implementation:methods:viewDidLoad:super</string>
-							<string>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</string>
-							<string>Base.lproj/Main.storyboard</string>
+							<string>Helpers/Coordinator.swift</string>
+							<string>___PACKAGENAME___MainCoordinator.swift</string>
+							<string>___PACKAGENAME___MainViewController.swift</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
-							<key>Base.lproj/Main.storyboard</key>
+							<key>Helpers/Coordinator.swift</key>
 							<dict>
 								<key>Path</key>
-								<string>Main.storyboard</string>
-								<key>SortOrder</key>
-								<integer>98</integer>
+								<string>Helpers/Coordinator.swift</string>
+							</dict>
+							<key>___PACKAGENAME___MainCoordinator.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>___PACKAGENAME___MainCoordinator.swift</string>
+							</dict>
+							<key>___PACKAGENAME___MainViewController.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>___PACKAGENAME___MainViewController.swift</string>
 							</dict>
 						</dict>
-						<key>Targets</key>
-						<array>
-							<dict>
-								<key>SharedSettings</key>
-								<dict>
-									<key>INFOPLIST_KEY_UIMainStoryboardFile</key>
-									<string>Main</string>
-								</dict>
-							</dict>
-						</array>
 					</dict>
 					<dict>
 						<key>RequiredOptions</key>
@@ -198,10 +185,8 @@ let contentView = ContentView().environment(\.managedObjectContext, context)
 	</array>
 	<key>Image</key>
 	<dict>
-		<key>BundleImageName</key>
-		<string>app</string>
-		<key>BundleIdentifier</key>
-		<string>com.apple.dt.IDEKit</string>
+		<key>Path</key>
+		<string>TemplateIcon.png</string>
 	</dict>
 </dict>
 </plist>
