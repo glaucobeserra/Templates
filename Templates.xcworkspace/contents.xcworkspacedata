@@ -23,6 +23,9 @@
       <FileRef
          location = "group:___PACKAGENAME___MainCoordinator.swift">
       </FileRef>
+      <FileRef
+         location = "group:___PACKAGENAME___MainViewController.swift">
+      </FileRef>
    </Group>
    <Group
       location = "group:Coordinated UIScene Lifecycle.xctemplate"

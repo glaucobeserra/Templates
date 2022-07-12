@@ -72,18 +72,24 @@
 							<string>___PACKAGENAME___MainViewController.swift:implementation:methods:viewDidLoad:super</string>
 							<string>Helpers/Coordinator.swift</string>
 							<string>___PACKAGENAME___MainCoordinator.swift</string>
+							<string>___PACKAGENAME___MainViewController</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
+							<key>Helpers/Coordinator.swift</key>
+							<dict>
+								<key>Path</key>
+								<string>Helpers/Coordinator.swift</string>
+							</dict>
 							<key>___PACKAGENAME___MainCoordinator.swift</key>
 							<dict>
 								<key>Path</key>
 								<string>___PACKAGENAME___MainCoordinator.swift</string>
 							</dict>
-							<key>Helpers/Coordinator.swift</key>
+							<key>___PACKAGENAME___MainViewController.swift</key>
 							<dict>
 								<key>Path</key>
-								<string>Helpers/Coordinator.swift</string>
+								<string>___PACKAGENAME___MainViewController.swift</string>
 							</dict>
 						</dict>
 					</dict>
