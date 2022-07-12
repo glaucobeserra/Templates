@@ -216,19 +216,10 @@
 							<string>SceneDelegate.swift:imports:importCocoa</string>
 							<string>SceneDelegate.swift:implementation(SceneDelegate: UIResponder, UIWindowSceneDelegate)</string>
 							<string>SceneDelegate.swift:implementation:properties:window</string>
+							<string>SceneDelegate.swift:implementation:properties:coordinator</string>
 							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession(func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions\))</string>
 							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:comments</string>
 							<string>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneDidDisconnect(func sceneDidDisconnect(_ scene: UIScene\))</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneDidDisconnect:comments</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneDidBecomeActive(func sceneDidBecomeActive(_ scene: UIScene\))</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneDidBecomeActive:comments</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneWillResignActive(func sceneWillResignActive(_ scene: UIScene\))</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneWillResignActive:comments</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneWillEnterForeground(func sceneWillEnterForeground(_ scene: UIScene\))</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneWillEnterForeground:comments</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneDidEnterBackground(func sceneDidEnterBackground(_ scene: UIScene\))</string>
-							<string>SceneDelegate.swift:implementation:methods:sceneDidEnterBackground:comments</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
@@ -251,15 +242,28 @@
 							<key>AppDelegate.swift:implementation:methods:applicationDidBecomeActive:comments</key>
 							<string></string>
 							<key>AppDelegate.swift:implementation:methods:UISceneSessionLifecycleBanner</key>
-							<string>// MARK: UISceneSession Lifecycle
-
-</string>
+							<string>// MARK: UISceneSession Lifecycle</string>
 							<key>AppDelegate.swift:implementation:methods:applicationconfigurationForConnectingSceneSession:body</key>
 							<string>return UISceneConfiguration(name: &quot;Default Configuration&quot;, sessionRole: connectingSceneSession.role)</string>
 							<key>SceneDelegate.swift:implementation:properties:window</key>
 							<string>var window: UIWindow?</string>
+							<key>SceneDelegate.swift:implementation:properties:coordinator</key>
+							<string>var coordinator: Coordinator?</string>
 							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
-							<string>guard let _ = (scene as? UIWindowScene) else { return }</string>
+
+							<string>
+guard let scene = (scene as? UIWindowScene) else { return }
+guard let coordinator = coordinator else { return }
+
+let navigationController = UINavigationController()
+coordinator = MainCoordinator(navigationController: navigationController)
+coordinator.start()
+
+guard let window = UIWindow(windowScene: scene)
+window.rootViewController = navigationController
+window.makeKeyAndVisible()
+							</string>
+
 						</dict>
 					</dict>
 					<dict>
