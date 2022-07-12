@@ -198,10 +198,8 @@ let contentView = ContentView().environment(\.managedObjectContext, context)
 	</array>
 	<key>Image</key>
 	<dict>
-		<key>BundleImageName</key>
-		<string>app</string>
-		<key>BundleIdentifier</key>
-		<string>com.apple.dt.IDEKit</string>
+		<key>SystemSymbolName</key>
+		<string>location.viewfinder</string>
 	</dict>
 </dict>
 </plist>
