@@ -250,7 +250,6 @@
 							<key>SceneDelegate.swift:implementation:properties:coordinator</key>
 							<string>var coordinator: Coordinator?</string>
 							<key>SceneDelegate.swift:implementation:methods:sceneWillConnectToSession:body</key>
-
 							<string>
 guard let scene = (scene as? UIWindowScene) else { return }
 guard let coordinator = coordinator else { return }
@@ -263,7 +262,6 @@ guard let window = UIWindow(windowScene: scene)
 window.rootViewController = navigationController
 window.makeKeyAndVisible()
 							</string>
-
 						</dict>
 					</dict>
 					<dict>

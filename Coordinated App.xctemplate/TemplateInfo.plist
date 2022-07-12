@@ -38,28 +38,21 @@
 						<string>___PACKAGENAME___MainViewController.m:extension</string>
 						<string>___PACKAGENAME___MainViewController.m:implementation:methods:viewDidLoad(- (void\)viewDidLoad)</string>
 						<string>___PACKAGENAME___MainViewController.m:implementation:methods:viewDidLoad:super</string>
-						<string>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</string>
-						<string>Base.lproj/Main.storyboard</string>
+						<string>Helpers/Coordinator.swift</string>
 					</array>
 					<key>Definitions</key>
 					<dict>
-						<key>Base.lproj/Main.storyboard</key>
+						<key>Helpers/Coordinator.swift</key>
 						<dict>
 							<key>Path</key>
-							<string>Main.storyboard</string>
+							<string>Helpers/Coordinator.swift</string>
 							<key>SortOrder</key>
 							<integer>98</integer>
 						</dict>
 					</dict>
 					<key>Targets</key>
 					<array>
-						<dict>
-							<key>SharedSettings</key>
-							<dict>
-								<key>INFOPLIST_KEY_UIMainStoryboardFile</key>
-								<string>Main</string>
-							</dict>
-						</dict>
+						<dict/>
 					</array>
 				</dict>
 				<key>Swift</key>
@@ -77,29 +70,20 @@
 							<string>___PACKAGENAME___MainViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
 							<string>___PACKAGENAME___MainViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
 							<string>___PACKAGENAME___MainViewController.swift:implementation:methods:viewDidLoad:super</string>
-							<string>Info.plist:UIApplicationSceneManifest:UISceneStoryboardFile</string>
-							<string>Base.lproj/Main.storyboard</string>
+							<string>Helpers/Coordinator.swift</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
-							<key>Base.lproj/Main.storyboard</key>
+							<key>Helpers/Coordinator.swift</key>
 							<dict>
 								<key>Path</key>
-								<string>Main.storyboard</string>
+								<string>Helpers/Coordinator.swift</string>
 								<key>SortOrder</key>
 								<integer>98</integer>
 							</dict>
 						</dict>
 						<key>Targets</key>
-						<array>
-							<dict>
-								<key>SharedSettings</key>
-								<dict>
-									<key>INFOPLIST_KEY_UIMainStoryboardFile</key>
-									<string>Main</string>
-								</dict>
-							</dict>
-						</array>
+						<array/>
 					</dict>
 					<dict>
 						<key>RequiredOptions</key>
