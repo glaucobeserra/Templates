@@ -65,14 +65,9 @@
 						</dict>
 						<key>Nodes</key>
 						<array>
-							<string>___PACKAGENAME___MainViewController.swift:comments</string>
-							<string>___PACKAGENAME___MainViewController.swift:imports:importCocoa</string>
-							<string>___PACKAGENAME___MainViewController.swift:implementation(___FILEBASENAME___: UIViewController)</string>
-							<string>___PACKAGENAME___MainViewController.swift:implementation:methods:viewDidLoad(override func viewDidLoad(\))</string>
-							<string>___PACKAGENAME___MainViewController.swift:implementation:methods:viewDidLoad:super</string>
 							<string>Helpers/Coordinator.swift</string>
 							<string>___PACKAGENAME___MainCoordinator.swift</string>
-							<string>___PACKAGENAME___MainViewController</string>
+							<string>___PACKAGENAME___MainViewController.swift</string>
 						</array>
 						<key>Definitions</key>
 						<dict>
