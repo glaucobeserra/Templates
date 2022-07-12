@@ -5,6 +5,9 @@
       location = "group:Coordinated App.xctemplate"
       name = "Coordinated App.xctemplate">
       <FileRef
+         location = "group:Coordinator.swift">
+      </FileRef>
+      <FileRef
          location = "group:TemplateIcon@2x.png">
       </FileRef>
       <FileRef
