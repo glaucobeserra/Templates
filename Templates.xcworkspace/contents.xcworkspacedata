@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Coordinated App.xctemplate"
+      name = "Coordinated App.xctemplate">
+      <FileRef
+         location = "group:TemplateIcon@2x.png">
+      </FileRef>
+      <FileRef
+         location = "group:Main.storyboard">
+      </FileRef>
+      <FileRef
+         location = "group:TemplateIcon.png">
+      </FileRef>
+      <FileRef
+         location = "group:TemplateInfo.plist">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:Coordinated UIScene Lifecycle.xctemplate"
+      name = "Coordinated UIScene Lifecycle.xctemplate">
+      <FileRef
+         location = "group:TemplateInfo.plist">
+      </FileRef>
+   </Group>
+</Workspace>
